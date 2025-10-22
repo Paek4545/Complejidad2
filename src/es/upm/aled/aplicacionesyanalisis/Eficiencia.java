@@ -35,7 +35,14 @@ Usa System.nanoTime() para comparar los tiempos y comenta los resultados.
 		 * - Búsqueda lineal: 5000
 				- Tiempo que se tarda: 81300
 		   - Búsqueda binaria: 5000
-				- Tiempo que se tarda: 78900 --> Se puede observar que la búsqueda binaria tarda un poco menos que la lineal para el elemento 5000 
+				- Tiempo que se tarda: 78900 --> Se puede observar que la búsqueda binaria tarda un poco menos que la lineal para el elemento 5000
+				
+			Si lo comparamos con el de 700.000:
+		- Búsqueda lineal: 700000
+			- Tiempo que se tarda: 3116000
+		- Búsqueda binaria: 700000
+ 			- Tiempo que se tarda: 1566600 --> Aquí se observa una mayor diferencia debido a que búsqueda binaria
+ 			presenta una complejidad algorítmica O(logn), mientras que la búsqueda lineal O(n)
 		 */
 	}
 	// Copiamos y pegamos los métodos de búsqueda lineal y binaria:
