@@ -40,6 +40,10 @@ public class BubbleSortEficiencia {
 	}
 		System.out.println(Arrays.toString(arr));
 	}
+	/*
+	 * La diferencia entre ambos es bastante notable, lo que explica que la complejidad de BubbleSort sea de O(n^2), 
+	 * ya que al meter más elementos, tarda mucho más tiempo en ejecutarse
+	 */
 }
 
 
